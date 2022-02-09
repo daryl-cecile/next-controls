@@ -1,7 +1,7 @@
 {
   "name": "@darylcecile/next-deploy",
   "version": "1.0.0",
-  "description": "Deploy to Vercel via CLI",
+  "description": "Deploy to Vercel Programmatically",
   "main": "index.js",
   "author": "Daryl Cecile <darylcecile@gmail.com>",
   "license": "GPv2",
