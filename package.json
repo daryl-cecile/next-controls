@@ -1,13 +1,13 @@
 {
-  "name": "@darylcecile/next-deploy",
-  "version": "1.0.0",
+  "name": "@darylcecile/next-controls",
+  "version": "0.1.0",
   "description": "Deploy to Vercel Programmatically",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Daryl Cecile <darylcecile@gmail.com>",
-  "license": "GPv2",
+  "license": "GPL-2.0",
   "scripts": {
-    "build": "parcel build src/index.ts",
-    "start": "ts-node src/index.ts"
+    "build": "parcel build src/NextControls.ts",
+    "start": "ts-node src/index1.ts"
   },
   "dependencies": {
     "axios": "^0.25.0",
@@ -17,5 +17,9 @@
     "parcel": "^2.2.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map"
+  ]
 }

@@ -7,7 +7,7 @@ import {
     GetAllProjects,
     GetDeploymentByIdOrUrl,
     ViewDeployments
-} from "./Net";
+} from "./NextControls";
 import { readFile } from "fs/promises";
 import { join, resolve } from "path";
 import { getFilePathsInDirectory } from './files';
