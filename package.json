@@ -15,11 +15,11 @@
     "start": "ts-node --skip-project src/sample/runner.ts"
   },
   "dependencies": {
-    "@types/node": "^17.0.17",
     "axios": "^0.25.0",
     "dotenv": "^16.0.0"
   },
   "devDependencies": {
+    "@types/node": "^17.0.17",
     "@parcel/packager-ts": "2.3.1",
     "@parcel/transformer-typescript-types": "^2.2.1",
     "parcel": "^2.3.1",
