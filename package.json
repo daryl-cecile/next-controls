@@ -12,7 +12,7 @@
     "build:cjs": "tsc -p cjs.tsconfig.json",
     "build:esm": "tsc -p tsconfig.json",
     "build:types": "cp -R ./src/types ./dist",
-    "start": "ts-node src/sample/runner.ts"
+    "start": "ts-node --skip-project src/sample/runner.ts"
   },
   "dependencies": {
     "@types/node": "^17.0.17",
