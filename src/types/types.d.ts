@@ -18,7 +18,7 @@ export type CreateDeploymentParams = {
 	forceNew?: boolean,
 	target?: "staging" | "production",
 	meta?: Record<string, any>
-} & DeploymentParams & SecurityParams
+} & DeploymentParams
 
 export type DeleteDeploymentParams = {
 	id: string,
