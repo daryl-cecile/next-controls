@@ -23,6 +23,16 @@ of endpoints are supported, but PRs are welcome.
 
 The methods provided make use of properties defined in the Vercel docs; see those for more info on what each required property is.
 
+#### Progress:
+- Deployments - [partial]
+- Auth - [partial]
+- Secrets - [complete]
+- Projects - [partial]
+- Log Drain - [todo]  
+- Domains - [todo]  
+- Aliases - [todo]  
+- Artifact - [todo - beta]  
+
 ### Local Development
 
 To get going after pulling the repo locally:

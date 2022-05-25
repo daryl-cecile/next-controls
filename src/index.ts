@@ -6,5 +6,6 @@ TODO
  */
 
 export * from "./deployments";
+export * from "./secrets";
 export * from "./auth";
 export * from "./projects";

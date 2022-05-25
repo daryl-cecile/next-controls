@@ -17,7 +17,7 @@ const vercelToken = process.env.VERCEL_TOKEN as string;
 
 (async ()=>{
     const allProjects = await GetAllProjects({
-        bearer: vercelToken as string,
+        bearer: vercelToken,
         search: "sample-api-project-a"
     });
 

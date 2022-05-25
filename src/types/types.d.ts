@@ -48,6 +48,36 @@ export type FindProjectByIdOrNameParam = {
 	teamId?: string
 } & SecurityParams
 
+export type ChangeSecretNameParam = {
+	name: string,
+	newName: string,
+	teamId?: string
+} & SecurityParams
+
+export type CreateNewSecretParam = {
+	teamId?: string,
+	name: string,
+	value: string,
+	isDecryptable?: boolean
+} & SecurityParams
+
+export type DeleteSecretParam = {
+	idOrName: string,
+	teamId?: string
+} & SecurityParams
+
+export type GetSingleSecretParam = {
+	idOrName: string,
+	teamId?: string,
+	decrypt?: boolean
+} & SecurityParams
+
+export type GetAllSecretParam = {
+	id?: string,
+	teamId?: string,
+	projectId?: boolean
+} & SecurityParams
+
 export type LoginWithEmailParam = {
 	email: string,
 	tokenName?: string
